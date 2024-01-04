@@ -5,6 +5,7 @@ import AddBooks from './pages/AddBooks';
 import Books from './pages/Books';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
+import BooksId from './pages/BooksId';
 import footer from './components/footer';
 import {
   BrowserRouter as Router,
@@ -24,6 +25,7 @@ function App() {
         <Route path='/books' element={<Books />} />
         <Route path='/addbooks' element={<AddBooks />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/BooksId' element={<BooksId />} />
       </Routes>
       <footer />
     </Router>

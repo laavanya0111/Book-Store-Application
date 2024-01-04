@@ -29,6 +29,10 @@ const bookschema = new mongoose.Schema({
         type: Number,
         required: true
     },
+    quantity: {
+        type:Number,
+        require: 1
+    }
 });
 
-export const Book = mongoose.model('books', bookschema);
+export const Book = mongoose.model('Book', bookschema);

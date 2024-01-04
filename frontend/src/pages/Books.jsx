@@ -9,7 +9,7 @@ const Books = () => {
         const fetchData = async () => {
             try {
               const response = await axios.get("http://localhost:5000/books/getbooks");
-            //   console.log(response.data.data);
+              // console.log(response.data.data);
               setData(response.data.data);
             } catch (error) {
               console.error('Error fetching data:', error);
@@ -19,7 +19,7 @@ const Books = () => {
           fetchData()
       
         },[])
-        console.log(data)
+        // console.log(data[0]._id)
        
     
     return (

@@ -25,7 +25,7 @@ const Navbar = () => {
                                 Cart
                             </Link>
                             <li className="nav-item">
-                                <a className="nav-link disabled text-light" aria-disabled="true">Disabled</a>
+                                <a className="nav-link disabled text-light" aria-disabled="true">Checkout</a>
                             </li>
                         </ul>
                     </div>
